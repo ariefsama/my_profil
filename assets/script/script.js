@@ -21,3 +21,15 @@ let words = '';
   } 
   setTimeout(ketik, 300)
 })();
+
+
+let mobileMenu = document.getElementById('mobile');
+function hideMobileMenu() {
+  
+  mobileMenu.style = 'left : -300px;'
+}
+
+function showMobileMenu() {
+
+  mobileMenu.style = 'left : 0;'
+}
