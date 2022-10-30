@@ -354,6 +354,9 @@ tr, td, th {
   border-top: 3px solid #333d29;
 }
 
+.mobile-menu {
+  display: none;
+}
 @media (max-width: 768px ) {
 
   .mobile-menu {
